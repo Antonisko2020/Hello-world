@@ -5,7 +5,7 @@ int main()
 {
 	
 	setlocale(0, "");
-	cout << "ÏÐÈÂÅÒ ÌÈÐ!!"<<endl; 
+	cout << "ÃÃÃˆÃ‚Ã…Ã’ ÃŒÃˆÃ!!"<<endl; 
 	
 	return 0;
 }
