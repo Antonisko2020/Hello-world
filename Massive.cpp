@@ -12,12 +12,12 @@ int main()
 	int value;
 	int indx;
 	
-	setlocale(0, "");
+	//setlocale(0, "");
 	
 	while (true)
 {
 	
-	cout << "Ââåñòè êîìàíäó:" <<endl << "0 - âûõîä 1 - âûõîä 2 - çàïèñü 3 - ñîðò" << endl;
+	cout << "Ã‚Ã¢Ã¥Ã±Ã²Ã¨ ÃªÃ®Ã¬Ã Ã­Ã¤Ã³:" <<endl << "0 - Ã¢Ã»ÃµÃ®Ã¤ 1 - Ã¢Ã»ÃµÃ®Ã¤ 2 - Ã§Ã Ã¯Ã¨Ã±Ã¼ 3 - Ã±Ã®Ã°Ã²" << endl;
 	cin>>command;
 	
 	switch(command)
@@ -29,7 +29,7 @@ int main()
 		}
 		
 		case 2:
-		cout<<"Ââåñòè íîìåð ýëåìåíòà äëÿ çàïèñè"<<endl;
+		cout<<"Ã‚Ã¢Ã¥Ã±Ã²Ã¨ Ã­Ã®Ã¬Ã¥Ã° Ã½Ã«Ã¥Ã¬Ã¥Ã­Ã²Ã  Ã¤Ã«Ã¿ Ã§Ã Ã¯Ã¨Ã±Ã¨"<<endl;
 		cin>>indx>>value;
 
 			arr[indx] = value;
