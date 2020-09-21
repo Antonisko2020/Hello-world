@@ -4,8 +4,8 @@ using namespace std;
 int main()
 {
 	
-	setlocale(0, "");
-	cout << "ÏÐÈÂÅÒ ÌÈÐ!!"<<endl; 
+	//setlocale(0, "");
+	cout << "ÃÃÃˆÃ‚Ã…Ã’ ÃŒÃˆÃ!!"<<endl; 
 	
 	return 0;
 }
