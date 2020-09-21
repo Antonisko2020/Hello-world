@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-	int arr[5] = {2, 1, 4, 6, 9 };
+	int arr[5] = {2, 1, 5, 6, 8 };
 	
 	int command;
 	
@@ -17,23 +17,24 @@ int main()
 	while (true)
 {
 	
-	cout << "¬вести комgdrfgdrfанду:" <<endl << "0 - выхtttttttttttttttttttод 1 - выход 2 - запись 3 - сорт" << endl;
+	cout << "¬вести команду:" <<endl << "0 - выход 1 - выход 2 - запись 3 - сорт" << endl;
 	cin>>command;
 	
 	switch(command)
-	{gdrgdfgdrf
+	{
 		case 1:
-		for (int i = 0; i < 5; i++ddddddddddddddddddddddddddddddddd)
-		{gregdr
+		for (int i = 0; i < 5; i++)
+		{
 		cout<<arr[i]<<"\t";
-		}gdr
+		}
 		
 		case 2:
-		cout<<"¬вести номер эgdr
+		cout<<"¬вести номер элемента дл€ записи"<<endl;
+		cin>>indx>>value;
 
-			arr[indx] = vaddddddddddddddddddddddlue;
+			arr[indx] = value;
 		break;
-		grd
+		
 		case 0:
 		return 0;
 		break;
