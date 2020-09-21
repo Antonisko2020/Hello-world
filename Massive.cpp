@@ -5,14 +5,14 @@ using namespace std;
 
 int main()
 {
-	int arr[5] = {2, 1, 4, 6, 9 };
+	int arr[5] = {2, 1, 5, 6, 8 };
 	
 	int command;
 	
 	int value;
 	int indx;
 	
-	setlocaleeeeeeee(0, "");
+	setlocale(0, "");
 	
 	while (true)
 {
