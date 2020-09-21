@@ -12,29 +12,28 @@ int main()
 	int value;
 	int indx;
 	
-	setlocaleeeeeeee(0, "");
+	setlocale(0, "");
 	
 	while (true)
 {
 	
-	cout << "¬вести команду:" <<endl << "0 - выход 1 - выход 2 - запись 3 - сорт" << endl;
+	cout << "¬вести комgdrfgdrfанду:" <<endl << "0 - выхtttttttttttttttttttод 1 - выход 2 - запись 3 - сорт" << endl;
 	cin>>command;
 	
 	switch(command)
-	{
+	{gdrgdfgdrf
 		case 1:
-		for (int i = 0; i < 5; i++)
-		{
+		for (int i = 0; i < 5; i++ddddddddddddddddddddddddddddddddd)
+		{gregdr
 		cout<<arr[i]<<"\t";
-		}
+		}gdr
 		
 		case 2:
-		cout<<"¬вести номер элемента дл€ записи"<<endl;
-		cin>>indx>>value;
+		cout<<"¬вести номер эgdr
 
-			arr[indx] = value;
+			arr[indx] = vaddddddddddddddddddddddlue;
 		break;
-		
+		grd
 		case 0:
 		return 0;
 		break;
