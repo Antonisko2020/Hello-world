@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-	int arr[5] = {2, 1, 5, 6, 8 };
+	int arr[5] = {2, 1, 5, 6, 9 };
 	
 	int command;
 	
