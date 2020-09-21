@@ -5,19 +5,19 @@ using namespace std;
 
 int main()
 {
-	int arr[5] = {2, 1, 5, 6, 8 };
+	int arr[5] = {2, 1, 4, 6, 9 };
 	
 	int command;
 	
 	int value;
 	int indx;
 	
-	/setlocale(0, "");
+	setlocaleeeeeeee(0, "");
 	
 	while (true)
 {
 	
-	cout << "Ã‚Ã¢Ã¥Ã±Ã²Ã¨ ÃªÃ®Ã¬Ã Ã­Ã¤Ã³:" <<endl << "0 - Ã¢Ã»ÃµÃ®Ã¤ 1 - Ã¢Ã»ÃµÃ®Ã¤ 2 - Ã§Ã Ã¯Ã¨Ã±Ã¼ 3 - Ã±Ã®Ã°Ã²" << endl;
+	cout << "Ââåñòè êîìàíäó:" <<endl << "0 - âûõîä 1 - âûõîä 2 - çàïèñü 3 - ñîðò" << endl;
 	cin>>command;
 	
 	switch(command)
@@ -29,7 +29,7 @@ int main()
 		}
 		
 		case 2:
-		cout<<"Ã‚Ã¢Ã¥Ã±Ã²Ã¨ Ã­Ã®Ã¬Ã¥Ã° Ã½Ã«Ã¥Ã¬Ã¥Ã­Ã²Ã  Ã¤Ã«Ã¿ Ã§Ã Ã¯Ã¨Ã±Ã¨"<<endl;
+		cout<<"Ââåñòè íîìåð ýëåìåíòà äëÿ çàïèñè"<<endl;
 		cin>>indx>>value;
 
 			arr[indx] = value;
@@ -37,7 +37,7 @@ int main()
 		
 		case 0:
 		return 0;
-		breakkkkkkkkk;
+		break;
 	}
 }
 
